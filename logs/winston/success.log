@@ -110,3 +110,27 @@ Fri Jun 02 2023 17:45:29 [PH] info: Application listening on port 5000
   label: 'PH',
   timestamp: '2023-06-02T11:48:25.044Z'
 }
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-02T11:58:10.804Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-02T11:58:10.813Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-02T11:58:19.846Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-02T11:58:19.855Z'
+}

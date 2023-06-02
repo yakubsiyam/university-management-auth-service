@@ -1,7 +1,7 @@
 type IUser = {
-  id: string
-  role: string
-  password: string
-}
+  id: string;
+  role: string;
+  password: string;
+};
 
-export default IUser
+export default IUser;

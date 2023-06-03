@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/.9ad1a473a445f792454adba611c5ed367e342dd8-audit.json",
+    "files": [
+        {
+            "date": 1685771593588,
+            "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/phu-2023-03-06-11-error.log",
+            "hash": "73895299e40433293e532bcdecd17f90cdbab74cac31ce4a2370e3dc8fd0231a"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -14,9 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/v1/users', UserRoutes);
 
 // Testing
-// app.get('/', (r eq: Request, res: Response, next: NextFunction) => {
-//   throw new ApiError(400, 'ore baba error');
-//   // next('Ore baba error'); // Error
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//   throw new Error('Testing error logger');
 // });
 
 // global error handler

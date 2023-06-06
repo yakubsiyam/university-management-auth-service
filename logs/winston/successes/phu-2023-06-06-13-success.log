@@ -1,0 +1,31 @@
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-06T07:02:25.437Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-06T07:02:25.446Z'
+}
+{
+  message: 'Database is connected successfully',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-06T07:04:16.442Z'
+}
+{
+  message: 'Application listening on port 5000',
+  level: 'info',
+  label: 'PH',
+  timestamp: '2023-06-06T07:04:16.454Z'
+}
+Tue Jun 06 2023 13:9:11 [PH] info: Database is connected successfully
+Tue Jun 06 2023 13:9:11 [PH] info: Application listening on port 5000
+Tue Jun 06 2023 13:9:32 [PH] info: SIGTERM is received
+Tue Jun 06 2023 13:10:19 [PH] info: Database is connected successfully
+Tue Jun 06 2023 13:10:19 [PH] info: Application listening on port 5000
+Tue Jun 06 2023 13:11:44 [PH] info: Database is connected successfully
+Tue Jun 06 2023 13:11:44 [PH] info: Application listening on port 5000

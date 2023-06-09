@@ -5,6 +5,7 @@ import sendResponse from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
 import pick from '../../../shared/pick';
 import { paginationFields } from '../../../constant/pagination';
+import { IAcademicSemester } from './academicSemester.interface';
 
 const createSemester = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
@@ -17,6 +18,7 @@ const createSemester = catchAsync(
       statusCode: httpStatus.OK,
       success: true,
       message: 'Academic Semester Created Successfully',
+      meta: null,
       data: result,
     });
     next();
@@ -25,20 +27,22 @@ const createSemester = catchAsync(
 
 const getAllSemesters = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
+    const filters = pick(req.query, ['searchTerm']);
     const paginationOptions = pick(req.query, paginationFields);
 
-    console.log(paginationOptions);
-    // const result = await AcademicSemesterService.getAllSemesters(
-    //   paginationOptions
-    // );
+    const result = await AcademicSemesterService.getAllSemesters(
+      filters,
+      paginationOptions
+    );
 
-    // sendResponse(res, {
-    //   statusCode: httpStatus.OK,
-    //   success: true,
-    //   message: 'Semesters Retirieved Successfully',
-    //   data: result,
-    // });
-    // next();
+    sendResponse<IAcademicSemester[]>(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Semesters Retrieved Successfully',
+      meta: result.meta,
+      data: result.data,
+    });
+    next();
   }
 );
 

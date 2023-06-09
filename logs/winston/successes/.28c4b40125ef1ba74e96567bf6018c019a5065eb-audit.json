@@ -119,6 +119,16 @@
             "date": 1686302770968,
             "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/successes/phu-2023-09-06-15-success.log",
             "hash": "d2008560f6be3250f55c8efc82183648a5b31a74357991cf49c8e35fcaaeb48a"
+        },
+        {
+            "date": 1686306022945,
+            "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/successes/phu-2023-09-06-16-success.log",
+            "hash": "cbe57f470a3151f13ef76a05933e6991d40fe54cd276309e6092c6eaf5986c12"
+        },
+        {
+            "date": 1686308434885,
+            "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/successes/phu-2023-09-06-17-success.log",
+            "hash": "ed20c8ca126a4739c2c6ace7d733a58517e0c1eb271817ee872f5d3d9f7b2189"
         }
     ],
     "hashType": "sha256"

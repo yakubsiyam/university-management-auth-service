@@ -139,6 +139,16 @@
             "date": 1686382030744,
             "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/phu-2023-10-06-13-error.log",
             "hash": "319506caa8e8faf3e21e9b46618dc2d64d447310ef9cf1e6ade54915791c2523"
+        },
+        {
+            "date": 1686550156855,
+            "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/phu-2023-12-06-12-error.log",
+            "hash": "d0aa078f2cae87563af437cf7587b306833915a9d1b2b63e30a4c4230d304599"
+        },
+        {
+            "date": 1686554385190,
+            "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/phu-2023-12-06-13-error.log",
+            "hash": "fae2cd6daf051a5ee006629d23499883ef71dd4a573108643dc8c169d29955df"
         }
     ],
     "hashType": "sha256"

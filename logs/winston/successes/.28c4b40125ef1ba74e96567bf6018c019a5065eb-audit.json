@@ -194,6 +194,11 @@
             "date": 1686651328937,
             "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/successes/phu-2023-13-06-16-success.log",
             "hash": "7135c10ef70ce4e73173ffa11b4e20090ad4cfc8cdb3180877f8b357f8e96922"
+        },
+        {
+            "date": 1686658493204,
+            "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/successes/phu-2023-13-06-18-success.log",
+            "hash": "bf51a1b5be1a2c076375b1d53ba55eb6d6cf39fb7e6ffe3cdbb023f1362c1bf1"
         }
     ],
     "hashType": "sha256"

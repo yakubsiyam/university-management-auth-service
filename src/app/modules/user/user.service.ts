@@ -134,7 +134,7 @@ const createFaculty = async (
       path: 'faculty',
       populate: [
         {
-          pat: 'academicDepartment',
+          path: 'academicDepartment',
         },
         {
           path: 'academicFaculty',

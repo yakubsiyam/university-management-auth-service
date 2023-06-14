@@ -118,13 +118,9 @@ export const updateStudent = async (
     });
   }
 
-  const result = await Student.findOneAndUpdate(
-    { _id: id },
-    updatedStudentData,
-    {
-      new: true,
-    }
-  );
+  const result = await Student.findOneAndUpdate({ id }, updatedStudentData, {
+    new: true,
+  });
   return result;
 };
 
@@ -140,6 +136,6 @@ export const deleteStudent = async (id: string): Promise<IStudent | null> => {
 export const StudentService = {
   getAllStudents,
   getSingleStudent,
-  //   updateStudent,
+  updateStudent,
   deleteStudent,
 };

@@ -244,6 +244,11 @@
             "date": 1686820963925,
             "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/phu-2023-15-06-15-error.log",
             "hash": "28865b6dbf342e57318f82509386a4c7eae8894e562c05ed384072052d24fab4"
+        },
+        {
+            "date": 1686824118687,
+            "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/phu-2023-15-06-16-error.log",
+            "hash": "362a560e20ae667ecf349b41dc92f7c064a8673eeedf28ab37c91e5b9813cc8c"
         }
     ],
     "hashType": "sha256"

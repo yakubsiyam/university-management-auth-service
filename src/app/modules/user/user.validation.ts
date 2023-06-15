@@ -129,7 +129,7 @@ const createFacultyZodSchema = z.object({
         required_error: 'Permanent address is required',
       }),
       designation: z.string({
-        required_error: 'Designtion is required',
+        required_error: 'Designation is required',
       }),
       academicDepartment: z.string({
         required_error: 'Academic department is required',

@@ -88,7 +88,7 @@ const createFaculty = async (
 ): Promise<IUser | null> => {
   // default password
   if (!user.password) {
-    user.password = config.default_student_pass as string;
+    user.password = config.default_faculty_pass as string;
   }
 
   // set role
@@ -128,7 +128,7 @@ const createFaculty = async (
     throw error;
   }
 
-  // user --> student --> academicSemester, academicDepartment, academicfaculy
+  // user --> student --> academicDepartment, academicfaculy
   if (newUserAllData) {
     newUserAllData = await User.findOne({ id: newUserAllData.id }).populate({
       path: 'faculty',

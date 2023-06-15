@@ -7,6 +7,7 @@ const router = express.Router();
 router.get('/', FacultyController.getAllFaculties);
 
 router.get('/:id', FacultyController.getSingleFaculty);
+router.get('/:id', FacultyController.deleteFaculty);
 
 router.patch(
   '/:id',

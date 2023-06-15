@@ -106,18 +106,17 @@ export const updateFaculty = async (
   return result;
 };
 
-// export const deleteStudent = async (id: string): Promise<IStudent | null> => {
-//   const result = await Student.findByIdAndDelete(id)
-//     .populate('academicSemester')
-//     .populate('academicDepartment')
-//     .populate('academicFaculty');
+export const deleteFaculty = async (id: string): Promise<IFaculty | null> => {
+  const result = await Faculty.findByIdAndDelete(id)
+    .populate('academicDepartment')
+    .populate('academicFaculty');
 
-//   return result;
-// };
+  return result;
+};
 
 export const FacultyService = {
   getAllFaculties,
   getSingleFaculty,
   updateFaculty,
-  //   deleteStudent,
+  deleteFaculty,
 };

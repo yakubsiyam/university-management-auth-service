@@ -53,22 +53,22 @@ const updateFaculty = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-// const deleteStudent = catchAsync(async (req: Request, res: Response) => {
-//   const id = req.params.id;
+const deleteFaculty = catchAsync(async (req: Request, res: Response) => {
+  const id = req.params.id;
 
-//   const result = await StudentService.deleteStudent(id);
+  const result = await FacultyService.deleteFaculty(id);
 
-//   sendResponse<IStudent>(res, {
-//     statusCode: httpStatus.OK,
-//     success: true,
-//     message: 'Student Deleted Successfully',
-//     data: result,
-//   });
-// });
+  sendResponse<IFaculty>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Faculty Deleted Successfully',
+    data: result,
+  });
+});
 
 export const FacultyController = {
   getAllFaculties,
   getSingleFaculty,
   updateFaculty,
-  //   deleteStudent,
+  deleteFaculty,
 };

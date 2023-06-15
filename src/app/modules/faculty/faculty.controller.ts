@@ -26,18 +26,18 @@ const getAllFaculties = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-// const getSingleStudent = catchAsync(async (req: Request, res: Response) => {
-//   const id = req.params.id;
+const getSingleFaculty = catchAsync(async (req: Request, res: Response) => {
+  const id = req.params.id;
 
-//   const result = await StudentService.getSingleStudent(id);
+  const result = await FacultyService.getSingleFaculty(id);
 
-//   sendResponse<IStudent>(res, {
-//     statusCode: httpStatus.OK,
-//     success: true,
-//     message: 'Student Retrieved Successfully',
-//     data: result,
-//   });
-// });
+  sendResponse<IFaculty>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Faculty Retrieved Successfully',
+    data: result,
+  });
+});
 
 // const updateStudent = catchAsync(async (req: Request, res: Response) => {
 //   const id = req.params.id;
@@ -68,7 +68,7 @@ const getAllFaculties = catchAsync(async (req: Request, res: Response) => {
 
 export const FacultyController = {
   getAllFaculties,
-  //   getSingleStudent,
+  getSingleFaculty,
   //   updateStudent,
   //   deleteStudent,
 };

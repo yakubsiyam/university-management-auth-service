@@ -6,11 +6,6 @@
     "auditLog": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/successes/.28c4b40125ef1ba74e96567bf6018c019a5065eb-audit.json",
     "files": [
         {
-            "date": 1686207950374,
-            "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/successes/phu-2023-08-06-13-success.log",
-            "hash": "a4421ad02c0dd915541004a1b2b95e9cea857f86a7f8e4f6c5f7824e7c3badae"
-        },
-        {
             "date": 1686286782658,
             "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/successes/phu-2023-09-06-10-success.log",
             "hash": "e6394111318c0b13bf4e94ec1c3cc9169f84b7ba14b0a48ec57a9d7654090579"
@@ -179,6 +174,11 @@
             "date": 1687417494147,
             "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/successes/phu-2023-22-06-13-success.log",
             "hash": "ca67f4be8f747849dd2ac77be6b8fe09298991b312bcffaeff75d2c268db36c2"
+        },
+        {
+            "date": 1687425034163,
+            "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/successes/phu-2023-22-06-15-success.log",
+            "hash": "3cf5e9fe48edc626d12b1cbba273b4910998244310e950b807c416b861ef054e"
         }
     ],
     "hashType": "sha256"

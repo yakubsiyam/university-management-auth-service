@@ -6,11 +6,6 @@
     "auditLog": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/.9ad1a473a445f792454adba611c5ed367e342dd8-audit.json",
     "files": [
         {
-            "date": 1686207950379,
-            "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/phu-2023-08-06-13-error.log",
-            "hash": "440ae8543ff67fbb835608ba23b16c717c20eb9f6ef0d80039d9fa006691436e"
-        },
-        {
             "date": 1686286782662,
             "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/phu-2023-09-06-10-error.log",
             "hash": "30db1cdae170e24dd193d2721029554624741289981c5186103ca82ebe95aba8"
@@ -179,6 +174,11 @@
             "date": 1687417494152,
             "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/phu-2023-22-06-13-error.log",
             "hash": "e57b6990918192071043915cc8fce2e899d5258d5fa2ff128989212ab5180eae"
+        },
+        {
+            "date": 1687425034169,
+            "name": "/home/siyam/Personal Projects/university-management-auth-service/logs/winston/errors/phu-2023-22-06-15-error.log",
+            "hash": "0e155b700dd02f257ba946a4e513c80a6f624c0aa5ad88b9f03a2e7feb344da6"
         }
     ],
     "hashType": "sha256"

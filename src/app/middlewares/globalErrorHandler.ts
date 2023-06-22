@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 /* eslint-disable no-unused-expressions */
-import { ErrorRequestHandler, Request, Response } from 'express';
+import { ErrorRequestHandler, NextFunction, Request, Response } from 'express';
 import { IGenericErrorMessage } from '../../interfaces/error';
 import handleValidationError from '../../errors/handleValidationError';
 import config from '../../config';
@@ -13,7 +13,9 @@ import handleCastError from '../../errors/handleCastError';
 const globalErrorHandler: ErrorRequestHandler = (
   error,
   req: Request,
-  res: Response
+  res: Response,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars, no-unused-vars
+  next: NextFunction
 ) => {
   config.env == 'development'
     ? console.log('global error handler', error)

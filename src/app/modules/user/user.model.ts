@@ -48,11 +48,17 @@ const UserSchema = new Schema<IUser, Record<string, never>, IUserMethods>(
 UserSchema.methods.isUserExist = async function (
   id: string
 ): Promise<Partial<IUser> | null> {
-  const user = await User.findOne(
+  return await User.findOne(
     { id },
     { id: 1, password: 1, needsPasswordChange: 1 }
   );
-  return user;
+};
+
+UserSchema.methods.isPasswordMatched = async function (
+  givenPassword: string,
+  savedPassword: string
+): Promise<boolean> {
+  return await bcrypt.compare(givenPassword, savedPassword);
 };
 
 UserSchema.pre('save', async function (next) {

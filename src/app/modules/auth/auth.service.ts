@@ -7,10 +7,12 @@ const loginUser = async (payload: ILoginUser) => {
   const { id, password } = payload;
 
   // creating instance of user
-  const user = new User();
+  // const user = new User();
 
-  // access to our instance method
-  const isUserExist = await user.isUserExist(id);
+  // access to our instance methods
+  // const isUserExist = await user.isUserExist(id);
+
+  const isUserExist = await User.isUserExist(id);
 
   if (!isUserExist) {
     throw new ApiError(httpStatus.NOT_FOUND, 'User does not Exist');
@@ -19,7 +21,7 @@ const loginUser = async (payload: ILoginUser) => {
   // Match Password
   if (
     isUserExist?.password &&
-    !user.isPasswordMatched(password, isUserExist?.password)
+    !(await User.isPasswordMatched(password, isUserExist?.password))
   ) {
     throw new ApiError(httpStatus.UNAUTHORIZED, 'Password is incorrect');
   }

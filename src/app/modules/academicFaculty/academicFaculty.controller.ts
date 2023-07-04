@@ -68,6 +68,7 @@ const updateFaculty = catchAsync(
 
 const deleteFaculty = catchAsync(async (req: Request, res: Response) => {
   const { id } = req.params;
+  
   const result = await AcademicFacultyService.deleteByIdFromDB(id);
 
   sendResponse<IAcademicFaculty>(res, {

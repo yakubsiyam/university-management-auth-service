@@ -1,6 +1,0 @@
-Tue Jun 13 2023 13:15:41 [PH] error: Cannot read properties of undefined (reading 'year')
-Tue Jun 13 2023 13:16:18 [PH] error: Cannot read properties of undefined (reading 'year')
-Tue Jun 13 2023 13:18:33 [PH] error: Failed to connect database Cannot read properties of undefined (reading 'listen')
-Tue Jun 13 2023 13:18:43 [PH] error: Failed to connect database Cannot read properties of undefined (reading 'listen')
-Tue Jun 13 2023 13:18:54 [PH] error: Failed to connect database Cannot read properties of undefined (reading 'listen')
-Tue Jun 13 2023 13:35:56 [PH] error: lastUser is not defined
